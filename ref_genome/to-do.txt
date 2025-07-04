@@ -1,0 +1,6 @@
+Put plant reference genome file (.fna.gz) in the directory corresponding to the dataset name:
+
+home
+	ref_genome
+		ref_{dataset name} e.g. ref_SRR9733638
+			reference genome file	
