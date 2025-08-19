@@ -3,6 +3,7 @@
 # Plant Microbiome Analysis Pipeline
 This repository contain the pipeline presented in the paper **"Massively Parallel Burrows-Wheeler Alignment for Microbiome Analysis over Plant Genomic Data".** In the paper we mainly discuss about step 2, sequence alignment. However, this repository also includes steps 1–3, but not steps 4–5, which involve downstream analysis tasks.
 
+
 ## 🔧 FIRST : Setup the system
 ### Download the program "SRA Toolkit".
 The program should be available on the NCBI website or this link https://github.com/ncbi/sra-tools/wiki/01.-Downloading-SRA-Toolkit  
@@ -63,6 +64,7 @@ In case you can't run the pipeline because your system does not recognize the pr
          06_Binning_main.sh
 ```
 
+
 ### Step 0.1 : Download sample data from NCBI
 Enter the following parameters for each job. The parameter-array values in the same index position will be use for the same job.
 
@@ -91,6 +93,7 @@ After the download is complete, the raw data will be in the directory:
 ```
 ~/01.Rawdata
 ```
+
 
 ### Step 0.2 : Download reference genome of host plant
 
@@ -130,8 +133,7 @@ home
 ```
 
 
-
-### Step 1 : Data Preprocessing using Trimmomatics
+### Step 1 : Data Preprocessing using Trimmomatic
 Enter the following parameters for each job. The parameter-array values in the same index position will be use for the same job.
 
 **Below is an example of the parameters. In your case, you can use different parameters from the ones shown here:**
