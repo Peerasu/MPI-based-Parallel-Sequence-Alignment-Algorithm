@@ -1,3 +1,0 @@
-1. Download SRA Toolkit. Make sure that you can call the SRA Toolkit program from home directory.
-    In this code we use "sratoolkit.3.1.1-centos_linux64". 
-    If you want to use other version, please change the path and program name in ~/script/01_sra_sub.sh file (around line 35) accordingly.
