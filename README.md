@@ -28,14 +28,14 @@ In case you can't run the pipeline because your system does not recognize the pr
    - conda
 ### For step 3: Metagenome Assembling, ensure that your system have the following programs.
    - spades
-### For Binning step, ensure that your system have the following programs.
+### For Binning, ensure that your system have the following programs.
    - QUAST
    - bbmap
    - samtools
    - bedtools2
    - purge
    - conda
-### For Dashboard step, ensure that your system have the following programs.
+### For Dashboard, ensure that your system have the following programs.
    - conda
 
 
