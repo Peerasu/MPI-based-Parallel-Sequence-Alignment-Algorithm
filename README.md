@@ -63,10 +63,10 @@ In case you can't run the pipeline because your system does not recognize the pr
          06_Binning_main.sh
 ```
 
-### Step 0.1 : Download samples from NCBI
+### Step 0.1 : Download sample data from NCBI
 Enter the following parameters for each job. The parameter-array values in the same index position will be use for the same job.
 
-✅ In our pipeline, each job runs with only one sample. This script lets you run multiple samples for the same step simultaneously in a single script, avoiding manual submission of each job.
+✅ In our pipeline, each job runs with only one sample data. This script lets you run multiple sample data for the same step simultaneously in a single script, avoiding manual submission of each job.
 
 **Below is an example of the parameters. In your case, you can use different parameters from the ones shown here:**
 ```
