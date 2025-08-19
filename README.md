@@ -47,8 +47,8 @@ In case you can't run the pipeline because your system does not recognize the pr
 ```
 
 ## 🚀 SECOND : Running the pipeline
-   - All scripts used to run the pipeline are in **"script_main"** directory. 
-   - The **"script_main"** directory should be placed in the home directory. 
+   - All scripts used to run the pipeline are in **"~/script_main/"** directory. 
+   - The **"~/script_main/"** directory should be placed in the home directory. 
    - All scripts were written based on a system with the PBS job scheduler, which is the one we used in the paper.
 
 
